@@ -70,7 +70,7 @@ public final class ProjectUtils
             if ( moduleFile.equals( project.getFile() ) )
             {
                 // project is a module of its parent
-                return false;
+                return false
             }
         }
 
