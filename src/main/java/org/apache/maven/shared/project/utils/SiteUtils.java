@@ -99,13 +99,5 @@ public final class SiteUtils
         }
         return project.getDistributionManagement().getSite().getUrl();
     }
-protected static String getDistributionManagementSiteUrl( MavenProject project )
-    {
-        if ( project.getDistributionManagement() == null || project.getDistributionManagement().getSite() == null )
-        {
-            return null;
-        }
-        return project.getDistributionManagement().getSite().getUrl();
-    }
 
 }
